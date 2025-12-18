@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sankarapandian | Biotechnology Portfolio & Resume</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f5f7fb; color: #222; line-height: 1.7; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Header */
+    header {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 15px; }
+    header p { font-size: 1.3rem; opacity: 0.95; }
+
+    /* Navigation */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: rgba(15,32,39,0.95);
+      padding: 12px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      z-index: 1000;
+    }
+    nav a { color: #fff; font-weight: 500; }
+    nav a:hover { color: #6dd5ed; }
+
+    section { max-width: 1100px; margin: auto; padding: 80px 20px; }
+    h2 { font-size: 2.2rem; margin-bottom: 30px; color: #203a43; text-align: center; }
+
+    .card {
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+      margin-bottom: 40px;
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+    .skill-box i { color: #2c5364; margin-bottom: 10px; }
+
+    /* Projects */
+    .project h3 { color: #2c5364; margin-bottom: 10px; }
+
+    /* Resume */
+    .resume-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    @media(max-width: 768px) { .resume-grid { grid-template-columns: 1fr; } }
+
+    /* Contact */
+    .contact-form input, .contact-form textarea {
+      width: 100%; padding: 12px; margin-bottom: 15px;
+      border-radius: 8px; border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background: #203a43; color: #fff; padding: 12px 22px;
+      border: none; border-radius: 8px; font-size: 1rem; cursor: pointer;
+    }
+    .contact-form button:hover { background: #2c5364; }
+
+    footer { background: #0f2027; color: #fff; text-align: center; padding: 25px; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#resume">Resume</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <div data-aos="fade-up">
+    <h1>Sankarapandian</h1>
+    <p>Biotechnology & Bioinformatics | Sustainable Bioprocess Research</p>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card" data-aos="fade-up">
+    <p>I am a final-year Biotechnology student with strong training in wet-lab experimentation, molecular biology, bioprocess engineering, and computational biology. My interests lie in sustainable bioprocesses, algal biotechnology, antimicrobial resistance genomics, and translational bioinformatics. I aim to pursue advanced research and contribute to impactful biological innovations.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+
+    <div class="card skill-box" data-aos="fade-up"><i class="fas fa-flask"></i><br><strong>Laboratory & Experimental</strong><br>Biochemical assays, UV–Vis, enzyme kinetics, chromatography (TLC, HPLC)</div>
+
+    <div class="card skill-box" data-aos="fade-up"><i class="fas fa-bacteria"></i><br><strong>Microbiology & Cell Biology</strong><br>Aseptic techniques, microbial growth kinetics, staining, cell viability assays</div>
+
+    <div class="card skill-box" data-aos="fade-up"><i class="fas fa-dna"></i><br><strong>Molecular Biology</strong><br>DNA isolation, PCR, cloning, SDS‑PAGE, Western blotting</div>
+
+    <div class="card skill-box" data-aos="fade-up"><i class="fas fa-industry"></i><br><strong>Bioprocess Engineering</strong><br>Bioreactors, media optimization, enzyme immobilization, algal photobioreactors</div>
+
+    <div class="card skill-box" data-aos="fade-up"><i class="fas fa-laptop-code"></i><br><strong>Computational Biology</strong><br>BLAST, ClustalW, MEGA, PyMOL, AutoDock, R, Linux</div>
+
+    <div class="card skill-box" data-aos="fade-up"><i class="fas fa-vials"></i><br><strong>Immunology</strong><br>ELISA, immunofluorescence, PBMC isolation, blood grouping</div>
+
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Research Projects</h2>
+
+  <div class="card project" data-aos="fade-up">
+    <h3>Conversion of Algal Biomass into Animal Feed</h3>
+    <p>Valorization of residual algal biomass (Gelidium and Sargassum) after agar and alginate extraction through biochemical profiling, digestibility assessment, and sustainability evaluation, demonstrating circular bioeconomy potential.</p>
+  </div>
+
+  <div class="card project" data-aos="fade-up">
+    <h3>Pan‑Genome Analysis of <em>Enterococcus faecalis</em></h3>
+    <p>Comparative genomics of diverse isolates to identify core and accessory genes, characterize antibiotic resistance determinants, and analyze prophage regions contributing to genome plasticity and AMR evolution.</p>
+  </div>
+</section>
+
+<section id="resume">
+  <h2>Resume Snapshot</h2>
+  <div class="resume-grid">
+    <div class="card" data-aos="fade-right">
+      <h3>Education</h3>
+      <p><strong>B.Tech Biotechnology</strong><br>Final Year Student</p>
+      <br>
+      <h3>Internship</h3>
+      <p><strong>Idhyam Paricshan Labs</strong><br>Biochemical analysis & chromatography</p>
+    </div>
+
+    <div class="card" data-aos="fade-left">
+      <h3>Research Interests</h3>
+      <ul>
+        <li>Antimicrobial resistance genomics</li>
+        <li>Sustainable bioprocess engineering</li>
+        <li>Algal & microbial biotechnology</li>
+        <li>Computational biology & bioinformatics</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact With Me</h2>
+  <div class="card" data-aos="fade-up">
+    <form class="contact-form" action="https://formspree.io/f/xaqwyyvg" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p><i class="fas fa-envelope"></i> <a href="mailto:sankarapandian200523@gmail.com">sankarapandian200523@gmail.com</a></p>
+    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sankarapandian-p-73b84a280" target="_blank">LinkedIn Profile</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Sankarapandian | Biotechnology Portfolio</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ once: true, duration: 900 });</script>
+
+</body>
+</html>
